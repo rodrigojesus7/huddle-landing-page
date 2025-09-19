@@ -138,6 +138,19 @@
 
 
 
+@media (max-width: 414px) {
+
+    .content h1{
+        font-size: 2.8rem;
+    }
+    
+}
+
+
+
+
+
+
 @media (max-width: 375px) {
 
 
