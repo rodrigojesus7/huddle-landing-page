@@ -5,14 +5,13 @@
 
     body {
         display: flex;
-        gap: 50px;
+        gap: 5rem;
 
         background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat;
         background-size: contain;
         justify-content: flex-start;
 
-        margin: 0;
-        padding: 0;
+        padding: 2rem;
     }
 
 
@@ -22,19 +21,19 @@
         justify-content: flex-start;
         align-items: center;
 
-        margin-top: 60px;
+        margin-top: 6rem;
     }
 
 
     .header img {
-        margin: 60 0 60 60px;
-        width: 280px;
+        margin: 6rem 0 6rem 6rem;
+        width: 28rem;
 
     }
 
     .main img {
-        max-width: 80%;
-        margin-top: 5px;
+        max-width: 100%;
+        margin-top: 0.5rem;
     }
 
     .content {
@@ -42,36 +41,36 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-width: 80%;
-        gap: 30px;
+        max-width: 100%;
+        gap: 3rem;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 2rem;
     }
 
     .content h1 {
-        font-size: 45px;
-        line-height: 60px;
-        margin-top: 40px;
+        font-size: 4.5rem;
+        line-height: 6rem;
+        margin-top: 4rem;
     }
 
     .content p {
-        font-size: 33px;
+        font-size: 3.3rem;
     }
 
 
     .btn{
-        margin-top: 30px;
-        width: 420px;
-        padding: 25px;
-        font-size: 28px;
-        border-radius: 50px;
+        margin-top: 3rem;
+        width: 42rem;
+        padding: 2.5rem;
+        font-size: 2.8rem;
+        border-radius: 5rem;
 
     }
 
 
     .social {
         justify-content: center;
-        margin: 80px 0 30px 0;
+        margin: 8rem 0 3rem 0;
     }
 
 
@@ -87,12 +86,12 @@
 
 
 
-@media (max-width: 440px) {
+@media (max-width: 560px) {
 
 
     .header img {
-        margin: 30px 0 0 40px;
-        width: 180px;
+        margin: 3rem 0 0 2.5rem;
+        width: 18rem;
 
     }
 
@@ -101,28 +100,29 @@
     }
 
     .content h1{
-        max-width: 400px;
-        font-size: 36px;
+        max-width: 100%;
+        font-size: 2.9rem;
+        line-height: 4.5rem;
     }
 
     .content p{
-        font-size: 20px;
+        font-size: 1.75rem;
     }
 
   
     .btn{
-        margin-top: 30px;
-        width: 260px;
-        padding: 15px;
-        font-size: 18px;
-        border-radius: 50px;
+        margin-top: 3rem;
+        width: 26rem;
+        padding: 1.5rem;
+        font-size: 1.8rem;
+        border-radius: 5rem;
 
     }
 
 
     .social {
         justify-content: center;
-        margin: 80px 0 30px 0;
+        margin: 8rem 0 3rem 0;
     }
 
 
@@ -132,6 +132,36 @@
     }
 
 
+
+}
+
+
+
+
+@media (max-width: 375px) {
+
+
+    .header img {
+        margin: 1.7rem 0 0 1.7rem;
+        width: 14rem;
+
+    }
+
+    .content{
+        gap: 1.5rem;
+        margin-top: 0;
+    }
+
+    .content h1{
+        max-width: 100%;
+        font-size: 2.59rem;
+        line-height: 4.5rem;
+        margin-top: 1rem;
+    }
+
+    .content p{
+        font-size: 1.7rem;
+    }
 
 
 
