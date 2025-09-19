@@ -58,7 +58,7 @@
     }
 
 
-    .btn{
+    .btn {
         margin-top: 3rem;
         width: 42rem;
         padding: 2.5rem;
@@ -74,7 +74,7 @@
     }
 
 
-    .social svg{
+    .social svg {
         height: 45px;
         width: 45px;
     }
@@ -95,22 +95,22 @@
 
     }
 
-    .content{
+    .content {
         max-width: 85%;
     }
 
-    .content h1{
+    .content h1 {
         max-width: 100%;
         font-size: 2.9rem;
         line-height: 4.5rem;
     }
 
-    .content p{
+    .content p {
         font-size: 1.75rem;
     }
 
-  
-    .btn{
+
+    .btn {
         margin-top: 3rem;
         width: 26rem;
         padding: 1.5rem;
@@ -126,7 +126,7 @@
     }
 
 
-    .social svg{
+    .social svg {
         height: 25px;
         width: 25px;
     }
@@ -140,11 +140,43 @@
 
 @media (max-width: 414px) {
 
-    .content h1{
+    .content h1 {
         font-size: 2.8rem;
     }
-    
+
 }
+
+
+@media (max-width: 401px) {
+
+
+    .header img {
+        margin: 1.7rem 0 0 1.7rem;
+        width: 14rem;
+
+    }
+
+    .content {
+        gap: 1.5rem;
+        margin-top: 0;
+    }
+
+    .content h1 {
+        max-width: 100%;
+        font-size: 2.59rem;
+        line-height: 4.5rem;
+        margin-top: 1rem;
+    }
+
+    .content p {
+        font-size: 1.7rem;
+    }
+
+
+
+}
+
+
 
 
 
@@ -160,19 +192,19 @@
 
     }
 
-    .content{
+    .content {
         gap: 1.5rem;
         margin-top: 0;
     }
 
-    .content h1{
+    .content h1 {
         max-width: 100%;
-        font-size: 2.59rem;
+        font-size: 2.3rem;
         line-height: 4.5rem;
         margin-top: 1rem;
     }
 
-    .content p{
+    .content p {
         font-size: 1.7rem;
     }
 
